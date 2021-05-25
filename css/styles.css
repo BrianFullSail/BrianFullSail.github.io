@@ -1,0 +1,40 @@
+body {color: #000;}
+
+.h6 {font-size: .75rem;}
+
+.row-mt{margin-top: 1rem;}
+
+.cimg {height: 200px;}
+
+.infocat{width: 360px;}
+
+.kittens{width: 250px;}
+
+.info{border: none;}
+
+.facebook, .twitter{width: 25px;}
+
+@media (min-width: 635px){
+    .cimg{
+        height: 590px;
+    }
+    .infocat{
+        width: 1100px;
+    }
+    .kittens{
+        width: 600px;
+    }
+}
+
+#social {list-style: none;}
+
+#social li {
+    display: inline-block;
+    margin-top: 3px;
+}
+
+form, input, textarea {
+    border: 1px solid #000;
+    border-radius: .25rem;
+}
+
